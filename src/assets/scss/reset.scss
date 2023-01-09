@@ -57,3 +57,13 @@ ul, li {
   width: 1420px;
   margin: 0 auto;
 }
+
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  color: $white;
+  text-align: center;
+  opacity: 1;
+  transition: opacity .5s;
+}
