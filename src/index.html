@@ -9,15 +9,85 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-      <div class="header-menu">
-        <button class="header-menu__button">
-          <span></span>
-        </button>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-menu">
+            <button class="header-menu__button">
+              <span></span>
+            </button>
+          </div>
+          <nav class="header-menu__list">
+            <ul>
+              <li>
+                <a class="header-menu__link menu-link" href="#editions">Editions</a>
+              </li>
+              <li>
+                <a class="header-menu__link menu-link" href="#controller">Controller</a>
+              </li>
+              <li>
+                <a class="header-menu__link menu-link" href="#about">About</a>
+              </li>
+              <li>
+                <a class="header-menu__link menu-link" href="#explore">Explore</a>
+              </li>
+              <li>
+                <a class="header-menu__link menu-link" href="#news">News</a>
+              </li>
+              <li>
+                <a class="header-menu__link menu-link" href="#faq">Faq</a>
+              </li>
+              <li>
+                <div class="header-menu__link lang">
+                  <span>english</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                  <div class="header-menu__languages">
+                    <div class="header-menu__language">Русский</div>
+                    <div class="header-menu__language">English</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-timer timer">
+            <span>Release:</span>
+            <div class="timer-values">
+              <div class="timer-item">
+                <div class="timer-item__value" id="days">0</div>
+                <div class="timer-item__info">D</div>
+              </div>
+              
+              <div class="timer-item">
+                <div class="timer-item__value" id="hours">0</div>
+                <div class="timer-item__info">H</div>
+              </div>
+              
+              <div class="timer-item">
+                <div class="timer-item__value" id="minutes">0</div>
+                <div class="timer-item__info">M</div>
+              </div>
+              
+              <div class="timer-item">
+                <div class="timer-item__value" id="seconds">0</div>
+                <div class="timer-item__info">S</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </header>
-  <section class="section section-main">
-
-  </section>
+    </header>
+    <div class="section section-description">
+      <div class="container">
+        <div class="description">
+          <div class="description-title"><h1>God of War Ragnarok</h1></div>
+          <div class="description-text"></div>
+          <button>buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
